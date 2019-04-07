@@ -381,59 +381,59 @@ system}\label{reading-the-csv-from-local-file-system}
     \subsubsection{Test}\label{test}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}76}]:} \PY{n}{df\PYZus{}csv}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}3}]:} \PY{n}{df\PYZus{}csv}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}76}]:}              tweet\_id  in\_reply\_to\_status\_id  in\_reply\_to\_user\_id  \textbackslash{}
-         0  892420643555336193                    NaN                  NaN   
-         1  892177421306343426                    NaN                  NaN   
-         2  891815181378084864                    NaN                  NaN   
-         3  891689557279858688                    NaN                  NaN   
-         4  891327558926688256                    NaN                  NaN   
-         
-                            timestamp  \textbackslash{}
-         0  2017-08-01 16:23:56 +0000   
-         1  2017-08-01 00:17:27 +0000   
-         2  2017-07-31 00:18:03 +0000   
-         3  2017-07-30 15:58:51 +0000   
-         4  2017-07-29 16:00:24 +0000   
-         
-                                                       source  \textbackslash{}
-         0  <a href="http://twitter.com/download/iphone" r{\ldots}   
-         1  <a href="http://twitter.com/download/iphone" r{\ldots}   
-         2  <a href="http://twitter.com/download/iphone" r{\ldots}   
-         3  <a href="http://twitter.com/download/iphone" r{\ldots}   
-         4  <a href="http://twitter.com/download/iphone" r{\ldots}   
-         
-                                                         text  retweeted\_status\_id  \textbackslash{}
-         0  This is Phineas. He's a mystical boy. Only eve{\ldots}                  NaN   
-         1  This is Tilly. She's just checking pup on you{\ldots}                  NaN   
-         2  This is Archie. He is a rare Norwegian Pouncin{\ldots}                  NaN   
-         3  This is Darla. She commenced a snooze mid meal{\ldots}                  NaN   
-         4  This is Franklin. He would like you to stop ca{\ldots}                  NaN   
-         
-            retweeted\_status\_user\_id retweeted\_status\_timestamp  \textbackslash{}
-         0                       NaN                        NaN   
-         1                       NaN                        NaN   
-         2                       NaN                        NaN   
-         3                       NaN                        NaN   
-         4                       NaN                        NaN   
-         
-                                                expanded\_urls  rating\_numerator  \textbackslash{}
-         0  https://twitter.com/dog\_rates/status/892420643{\ldots}                13   
-         1  https://twitter.com/dog\_rates/status/892177421{\ldots}                13   
-         2  https://twitter.com/dog\_rates/status/891815181{\ldots}                12   
-         3  https://twitter.com/dog\_rates/status/891689557{\ldots}                13   
-         4  https://twitter.com/dog\_rates/status/891327558{\ldots}                12   
-         
-            rating\_denominator      name doggo floofer pupper puppo  
-         0                  10   Phineas  None    None   None  None  
-         1                  10     Tilly  None    None   None  None  
-         2                  10    Archie  None    None   None  None  
-         3                  10     Darla  None    None   None  None  
-         4                  10  Franklin  None    None   None  None  
+{\color{outcolor}Out[{\color{outcolor}3}]:}              tweet\_id  in\_reply\_to\_status\_id  in\_reply\_to\_user\_id  \textbackslash{}
+        0  892420643555336193                    NaN                  NaN   
+        1  892177421306343426                    NaN                  NaN   
+        2  891815181378084864                    NaN                  NaN   
+        3  891689557279858688                    NaN                  NaN   
+        4  891327558926688256                    NaN                  NaN   
+        
+                           timestamp  \textbackslash{}
+        0  2017-08-01 16:23:56 +0000   
+        1  2017-08-01 00:17:27 +0000   
+        2  2017-07-31 00:18:03 +0000   
+        3  2017-07-30 15:58:51 +0000   
+        4  2017-07-29 16:00:24 +0000   
+        
+                                                      source  \textbackslash{}
+        0  <a href="http://twitter.com/download/iphone" r{\ldots}   
+        1  <a href="http://twitter.com/download/iphone" r{\ldots}   
+        2  <a href="http://twitter.com/download/iphone" r{\ldots}   
+        3  <a href="http://twitter.com/download/iphone" r{\ldots}   
+        4  <a href="http://twitter.com/download/iphone" r{\ldots}   
+        
+                                                        text  retweeted\_status\_id  \textbackslash{}
+        0  This is Phineas. He's a mystical boy. Only eve{\ldots}                  NaN   
+        1  This is Tilly. She's just checking pup on you{\ldots}                  NaN   
+        2  This is Archie. He is a rare Norwegian Pouncin{\ldots}                  NaN   
+        3  This is Darla. She commenced a snooze mid meal{\ldots}                  NaN   
+        4  This is Franklin. He would like you to stop ca{\ldots}                  NaN   
+        
+           retweeted\_status\_user\_id retweeted\_status\_timestamp  \textbackslash{}
+        0                       NaN                        NaN   
+        1                       NaN                        NaN   
+        2                       NaN                        NaN   
+        3                       NaN                        NaN   
+        4                       NaN                        NaN   
+        
+                                               expanded\_urls  rating\_numerator  \textbackslash{}
+        0  https://twitter.com/dog\_rates/status/892420643{\ldots}                13   
+        1  https://twitter.com/dog\_rates/status/892177421{\ldots}                13   
+        2  https://twitter.com/dog\_rates/status/891815181{\ldots}                12   
+        3  https://twitter.com/dog\_rates/status/891689557{\ldots}                13   
+        4  https://twitter.com/dog\_rates/status/891327558{\ldots}                12   
+        
+           rating\_denominator      name doggo floofer pupper puppo  
+        0                  10   Phineas  None    None   None  None  
+        1                  10     Tilly  None    None   None  None  
+        2                  10    Archie  None    None   None  None  
+        3                  10     Darla  None    None   None  None  
+        4                  10  Franklin  None    None   None  None  
 \end{Verbatim}
             
     \subsubsection{Reading The img Data
@@ -1340,55 +1340,55 @@ C:\textbackslash{}Anaconda3\textbackslash{}lib\textbackslash{}site-packages\text
     \end{Verbatim}
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}30}]:} array([[<matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352C618D0>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352D480B8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352D713C8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352D9B6D8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352E059E8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352E05A20>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352E5F048>],
-                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352E86390>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352EB1A20>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352EE20F0>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352F08780>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352F31E10>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352F634E0>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352F89B38>],
-                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352FBB208>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024352FE3898>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x000002435300CF28>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x000002435303B5F8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024353064C88>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024353094358>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243530BC9E8>],
-                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243530EE0B8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024353116748>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x000002435313BDD8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x000002435316C4A8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024354164B38>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024354195208>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243541BC898>],
-                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243541E6F28>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243542185F8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x000002435423DC88>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x000002435426F358>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243542979E8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243542C70B8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243542EE748>],
-                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024354317DD8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x000002435434A4A8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x000002435436FB38>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243543A3208>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243543C8898>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243543F1F28>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243544225F8>],
-                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024354448C88>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024354479358>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243544A49E8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243544D40B8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243544FA748>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x0000024354523DD8>,
-                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000243545544A8>]],
+{\color{outcolor}Out[{\color{outcolor}30}]:} array([[<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E6E4A2B0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E6F40AC8>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E6F76160>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E6F9C7F0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E6FC2E80>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E6FC2EB8>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E701ABE0>],
+                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E704B2B0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E7073940>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E709DFD0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E70FB6A0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E7124D30>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E7154400>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E7179A58>],
+                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E71AF128>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E71D87B8>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E71FFE48>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E722E518>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E7256BA8>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E7287278>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E6E4AA58>],
+                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E72D6F60>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E7308630>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E732FCC0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E8330390>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E8357A20>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E83890F0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E83AE780>],
+                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E83D9E10>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E84094E0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E842FB70>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E8462240>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E84898D0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E84B2F60>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E84E4630>],
+                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E8508CC0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E853A390>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E8562A20>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E85950F0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E85BB780>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E85E4E10>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E86174E0>],
+                [<matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E863CB70>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E866C240>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E86958D0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E86BCF60>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E86EB630>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E8719CC0>,
+                 <matplotlib.axes.\_subplots.AxesSubplot object at 0x00000233E8746390>]],
                dtype=object)
 \end{Verbatim}
             
@@ -2176,8 +2176,8 @@ Dog stages need to be combined into one column
          puppo              29
          doggo,pupper       12
          floofer             9
-         doggo,floofer       1
          doggo,puppo         1
+         doggo,floofer       1
          Name: stage, dtype: int64
 \end{Verbatim}
             
@@ -2457,14 +2457,14 @@ memory usage: 328.9+ KB
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}73}]:} \PY{n}{df}\PY{o}{=}\PY{n}{merged\PYZus{}2}\PY{o}{.}\PY{n}{copy}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}72}]:} \PY{n}{df}\PY{o}{=}\PY{n}{merged\PYZus{}2}\PY{o}{.}\PY{n}{copy}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
      \#\# Saving Data \#\#\# saving as csv in local file system
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}74}]:} \PY{n}{df}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{twitter\PYZus{}archive\PYZus{}master.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{index\PYZus{}label}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{tweetid}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}73}]:} \PY{n}{df}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{twitter\PYZus{}archive\PYZus{}master.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{index\PYZus{}label}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{tweetid}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
 \end{Verbatim}
 
 
@@ -2473,12 +2473,12 @@ memory usage: 328.9+ KB
 Using the factors ( Catagories ) Stage , and name
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}79}]:} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{stage}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}74}]:} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{stage}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}79}]:}                rating\_numerator  rating\_denominator  favorite\_count  \textbackslash{}
+{\color{outcolor}Out[{\color{outcolor}74}]:}                rating\_numerator  rating\_denominator  favorite\_count  \textbackslash{}
          stage                                                                 
          None                  12.427799           10.608023     7913.383954   
          doggo                 11.970149           10.000000    18727.641791   
@@ -2513,15 +2513,15 @@ Using the factors ( Catagories ) Stage , and name
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}105}]:} \PY{n}{df\PYZus{}p1} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{filter}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n+nb}{len}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mi}{25}\PY{p}{)}
-          
-          \PY{n}{df\PYZus{}p1}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{barh}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Histogram of the Most Rated Dog Type by first classfier}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Type of dog}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          
-          \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)} 
-          \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output1.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+{\color{incolor}In [{\color{incolor}75}]:} \PY{n}{df\PYZus{}p1} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{filter}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n+nb}{len}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mi}{25}\PY{p}{)}
+         
+         \PY{n}{df\PYZus{}p1}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{barh}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Histogram of the Most Rated Dog Type by first classfier}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Type of dog}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)} 
+         \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output1.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
 \end{Verbatim}
 
 
@@ -2531,15 +2531,15 @@ Using the factors ( Catagories ) Stage , and name
     { \hspace*{\fill} \\}
     
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}106}]:} \PY{n}{df\PYZus{}p2} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{filter}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n+nb}{len}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mi}{25}\PY{p}{)}
-          
-          \PY{n}{df\PYZus{}p2}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{barh}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Histogram of the Most Rated Dog Type by second classfier}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Type of dog}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          
-          \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)} 
-          \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output2.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+{\color{incolor}In [{\color{incolor}76}]:} \PY{n}{df\PYZus{}p2} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{filter}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n+nb}{len}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mi}{25}\PY{p}{)}
+         
+         \PY{n}{df\PYZus{}p2}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{barh}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Histogram of the Most Rated Dog Type by second classfier}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Type of dog}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)} 
+         \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output2.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
 \end{Verbatim}
 
 
@@ -2549,15 +2549,15 @@ Using the factors ( Catagories ) Stage , and name
     { \hspace*{\fill} \\}
     
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}107}]:} \PY{n}{df\PYZus{}p3} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p3}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{filter}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n+nb}{len}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mi}{25}\PY{p}{)}
-          
-          \PY{n}{df\PYZus{}p3}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p3}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{barh}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Histogram of the Most Rated Dog Type by second classfier}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Type of dog}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          
-          \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)} 
-          \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output3.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+{\color{incolor}In [{\color{incolor}77}]:} \PY{n}{df\PYZus{}p3} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p3}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{filter}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n+nb}{len}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{\PYZgt{}}\PY{o}{=} \PY{l+m+mi}{25}\PY{p}{)}
+         
+         \PY{n}{df\PYZus{}p3}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p3}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{barh}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Histogram of the Most Rated Dog Type by second classfier}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Type of dog}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)} 
+         \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output3.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
 \end{Verbatim}
 
 
@@ -2567,18 +2567,78 @@ Using the factors ( Catagories ) Stage , and name
     { \hspace*{\fill} \\}
     
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}113}]:} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{o}{.}\PY{n}{rating\PYZus{}numerator}\PY{o}{\PYZlt{}}\PY{l+m+mi}{15}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{retweet\PYZus{}count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{y}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rating\PYZus{}numerator}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{kind}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{scatter}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Retweet Counts}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Ratings}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Retweet Counts by Ratings Scatter Plot}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          
-          \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)}
-          \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output4.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+{\color{incolor}In [{\color{incolor}78}]:} \PY{n}{df}\PY{p}{[}\PY{n}{df}\PY{o}{.}\PY{n}{rating\PYZus{}numerator}\PY{o}{\PYZlt{}}\PY{l+m+mi}{15}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{x}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{retweet\PYZus{}count}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{y}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rating\PYZus{}numerator}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{kind}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{scatter}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Retweet Counts}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Ratings}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Retweet Counts by Ratings Scatter Plot}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         
+         \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)}
+         \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output4.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
 \end{Verbatim}
 
 
     \begin{center}
     \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_132_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}79}]:} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{rating\PYZus{}numerator}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{ascending}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{y}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rating\PYZus{}numerator}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{kind}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{barh}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Dog type predict by p1 }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sum of Ratings num }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sum of type Ratings by p1 predector }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)}
+         \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output5.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_133_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}80}]:} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{rating\PYZus{}numerator}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{ascending}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{y}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rating\PYZus{}numerator}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{kind}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{barh}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Dog type predict by p2 }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sum of Ratings num }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sum of type Ratings by p2 predector }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)}
+         \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output6.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_134_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}81}]:} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p3}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{rating\PYZus{}numerator}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{ascending}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{y}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rating\PYZus{}numerator}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{kind}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{barh}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Dog type predict by p3 }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sum of Ratings num }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sum of type Ratings by p3 predector }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)}
+         \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output7.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_135_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}82}]:} \PY{n}{df}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{rating\PYZus{}numerator}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{ascending}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{y}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rating\PYZus{}numerator}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{kind}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{barh}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Dog type predict by p2}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{mean of Ratings num }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{mean of type Ratings by p2 predector }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{fig} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{gcf}\PY{p}{(}\PY{p}{)}
+         \PY{n}{fig}\PY{o}{.}\PY{n}{savefig}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{output8.png}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{bbox\PYZus{}inches}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tight}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_136_0.png}
     \end{center}
     { \hspace*{\fill} \\}
     
